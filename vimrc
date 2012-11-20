@@ -1,6 +1,9 @@
 call pathogen#infect()
+
 "高亮
 syntax on
+"搜索高亮
+set hlsearch 
 
 filetype plugin indent on
 
