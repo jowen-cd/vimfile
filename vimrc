@@ -60,3 +60,14 @@ autocmd bufwritepost .vimrc source ~/.vimrc
 if filereadable(".vim.custom")
 	so .vim.custom
 endif
+
+"hi Pmenu guibg=red  "for gvim
+"hi Pmenu ctermbg=red  " for vim
+
+"CtrlP
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_match_window = 'top,order:ttb,min:1,max:12,results:12'
+
+
+"handlebar
+au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
