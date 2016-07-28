@@ -8,6 +8,12 @@ let mapleader=","
 syntax on
 "搜索高亮
 set hlsearch 
+"取消搜索高亮
+map <leader>= :noh<CR>
+
+"动态搜索
+"set is  "incsearch
+"set nois "noincsearch
 
 filetype plugin indent on
 autocmd FileType python setlocal et sta sw=4 sts=4
@@ -22,6 +28,7 @@ set number
 
 set encoding=utf-8
 set fileencoding=utf-8
+set tenc=utf-8
 
 colorscheme desert
 
@@ -38,7 +45,9 @@ map <C-b> :BufExplorer <CR>
 "Funzzyfind
 "map <C-f> :FufFile <CR>
 map <C-f> :FuzzyFinderTextMate <CR>
-map <leader>n :NERDTreeToggle <CR>
+
+"被F7代替
+"map <leader>n :NERDTreeToggle <CR>
 
 set wrap "设置自动折行
 "set nowrap "设置不自动折行
@@ -71,3 +80,18 @@ let g:ctrlp_match_window = 'top,order:ttb,min:1,max:12,results:12'
 
 "handlebar
 au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
+
+
+"tab
+:set expandtab
+:set tabstop=4
+
+
+
+"learn more
+""vim common
+"vim fold
+
+""TODO plugin
+"snipmate
+"ctrlp
