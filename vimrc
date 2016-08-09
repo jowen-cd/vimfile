@@ -87,6 +87,8 @@ au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
 :set tabstop=4
 
 
+"find in file
+map <F4> :execute " grep -srnw --binary-files=without-match --exclude-dir=.git . -e " . expand("<cword>") . " " <bar> cwindow<CR>
 
 "learn more
 ""vim common
