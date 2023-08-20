@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/wenjiang/projectspace/vwgame/source/common/ruby/service/public'
-let g:netrw_dirhist_2='/usr/local/rvm/gems/ruby-1.9.3-p484/gems/alo7_model-0.0.143.1'
-let g:netrw_dirhist_3='/Users/wenjiang/projectspace/dsr/data'
-let g:netrw_dirhist_4='/Users/wenjiang/.vim'
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/Users/wenjiang/sunrise_projectspace/idg/restapi/internal/logic/suggestion'
+let g:netrw_dirhist_4='/Users/wenjiang/sunrise_projectspace/idg/restapi/internal/logic'
+let g:netrw_dirhist_3='/Users/wenjiang/sunrise_projectspace/accuratemarketing/service/config_map'
+let g:netrw_dirhist_2='/Users/wenjiang/projectspace/vimfile'
+let g:netrw_dirhist_1='/Users/wenjiang/projectspace/core-rpc-shopping/migration/tripurx_product_label'
